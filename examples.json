@@ -5,7 +5,7 @@ query {
 }
 
 mutation {
-  createCustomer(customer: { name: {firstname: "Tim", surname: "Schmitz"}, address: null }) {
+  createCustomer(customer: { id: 1, name: {firstname: "Tim", surname: "Schmitz"}, address: null }) {
     id
   }
 }
